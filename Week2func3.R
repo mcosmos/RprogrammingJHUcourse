@@ -22,7 +22,7 @@ corr <- function(directory, threshold=0){
 		}
 	n
 	monitor_id <-m
-	correlation_coefficients <- n
-	correlation_matrix <- data.frame(m,n)
+	correlation_coefficient <- n
+	correlation_matrix <- data.frame(monitor_id,correlation_coefficient)
 	correlation_matrix
 	}
